@@ -41,3 +41,10 @@ print(firstName.upper()) #the .upper() capitalizes all the letter in the output
 print(firstName.lower()) #he .lower() converts all the letter to lower case in the output
 print(firstName.replace("tech", "stress")) #he .replaces() the predefined text letter with the new one in the output
 print(firstName.find("stress"))  #the .find() finds a specified word and displays in  the output and return the index
+
+course = "Python for Programminy"
+print(course)
+print(course.upper())
+print(course.find('y'))
+print(course.replace("for", "4"))
+print("Python" in course)
